@@ -25,7 +25,7 @@ The system is divided into three main functional blocks:
 
 * **Purpose:** To convert the high-impedance charge output of the piezo sensor into a low-impedance voltage signal. This is crucial for accurately reading the sensor's output without loading effects.
 * **Key Components:**
-    * **U1 (OPA343):** A low-power, single-supply, rail-to-rail operational amplifier, ideal for precision applications.
+    * **U1 (OPA376):** A low-power, single-supply, rail-to-rail operational amplifier, ideal for precision applications.
     * **R2 (10MΩ):** Feedback resistor, providing a DC path for the op-amp's bias current and setting the low-frequency rolloff.
     * **C3 (2.2nF):** Feedback capacitor, which determines the charge-to-voltage conversion gain ($V_{out} = -Q_{in} / C_f$).
 * **Power Supply:** V1 (2.5V) and V2 (1.25V) establish the split supply for the OPA343, allowing for signals around virtual ground.
